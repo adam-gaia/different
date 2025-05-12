@@ -36,6 +36,19 @@
       url = "github:adam-gaia/flake-ci";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    authors = {
+      url = "github:adam-gaia/authors";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    toml-path = {
+      url = "github:adam-gaia/toml-path";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    checklints = {
+      url = "github:adam-gaia/checklints";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs:
